@@ -1,5 +1,6 @@
 /*
-    TEORIA: Condicional hacia todos los datos
+    TEORIA: Condicional hacia todos los datos,
+    retorna solo boolean
 */
 
 // llamamos los datos de estudents desde data.js
@@ -12,5 +13,7 @@ console.log(ña) //return boolean
 
 
 // ¿Todos los estudiantes tienen una J en su nombre?
-const NameWithJ = students.every(x => x.name.includes('J'))
+const NameWithJ = students.every(
+    x => x.name.includes('J')
+)
 console.log(NameWithJ) //return boolean

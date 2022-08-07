@@ -39,6 +39,8 @@ var Employee = {
     
 };
 
+console.log(typeof Employee); //object
+
 
 var address = Employee.Address.House
 console.log( address.street ) // Fake Street

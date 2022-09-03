@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Document</title>   
+    <title>Actividad 6</title>   
     <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="content">
-        <section>
-            <div class="amount"></div>
-            <div class="image"></div>
-        </section>
-        <div class="description"></div>
+    <div class="container">
+        <button type="button" class="btn btn-primary" id="button1" 
+            onclick="button1()">Añadir 1 rojo
+        </button>
+
+        <button type="button" class="btn btn-primary" id="button2" 
+            onclick="button2()">Añadir 4 azules
+        </button>
+
+        <button type="button" class="btn btn-primary" id="button3" 
+            onclick="button3()">Modificar los azules
+        </button>
+
+        <button type="button" class="btn btn-primary" id="button4" 
+            onclick="button4()">Eliminar los rojos
+        </button>
+
+        <button type="button" class="btn btn-primary" id="button5" 
+            onclick="button5()">Vaciar
+        </button>
+        <br><br>
+        <div id="result"></div>
+        
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>

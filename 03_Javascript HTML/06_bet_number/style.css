@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: auto;
+    max-width: 900px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    margin: 4px;
+}
+
+input {
+    width: 300px;
+    margin-top: 30px;
+    padding: 9px;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px;
+}
+
+.cards {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2.5em;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.coins {
+    margin-top: 10px;
+
+}
+
+.coins img {
+    width: 60px;
+    margin: 8px;
+}
+
+.big {
+    font-size: 1.5em;
+    color: red;
+}
